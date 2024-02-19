@@ -1,0 +1,7 @@
+name: Build and deploy Mensenlinq Wordpress module
+on: [push]
+jobs: 
+    Explore-Github-Actions:
+        runs-on: ubuntu-latest
+        steps: 
+            - run: echo "Woohoo"
