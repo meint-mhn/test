@@ -6,7 +6,15 @@ on:
             - dev
         types: [closed]
 jobs: 
-    Explore-Github-Actions:
+    deploy_to_staging:
         runs-on: ubuntu-latest
+        environment: Staging
         steps: 
-            - run: echo "Test Merged with Dev or Main"
+            - run: echo "Merged to staging branch"
+
+
+    deploy_to_production:
+        runs-on: ubuntu-latest
+        environment: Production
+        steps: 
+            - run: echo "Merged to production branch"
