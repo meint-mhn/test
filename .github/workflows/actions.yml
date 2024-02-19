@@ -9,4 +9,4 @@ jobs:
     Explore-Github-Actions:
         runs-on: ubuntu-latest
         steps: 
-            - run: Merged with Dev or Main"
+            - run: echo "Test Merged with Dev or Main"
